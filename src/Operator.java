@@ -1,4 +1,4 @@
-public class main {
+public class Operator {
 
     public static void main(String[] args) {
         int balance = 500;
@@ -8,7 +8,7 @@ public class main {
         int bonus;
 
         if (buy > sum) {
-            bonus = buy/rule;
+            bonus = buy / rule;
         }
         else {bonus = 0;
         }
