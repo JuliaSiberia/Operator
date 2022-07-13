@@ -9,8 +9,8 @@ public class Operator {
 
         if (buy > sum) {
             bonus = buy / rule;
-        }
-        else {bonus = 0;
+        } else {
+            bonus = 0;
         }
         balance = balance + buy + bonus;
 
@@ -18,4 +18,3 @@ public class Operator {
         System.out.println("Количество бонусных рублей " + bonus);
     }
 }
-
